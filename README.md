@@ -1,15 +1,14 @@
-# Automated Intern Group Assignment System Using Clustering Techniques for Nobel Learning PCB
+# Automation Team Intern Project: Eduquest CLustering
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-v1.0+-orange.svg)](https://scikit-learn.org/)
 [![MiniSom](https://img.shields.io/badge/MiniSom-v2.3-brightgreen.svg)](https://github.com/justheuristic/minisom)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Project Overview
 
 This project addresses the challenge of optimally grouping incoming interns at Nobel Learning PCB to enhance their internship experience.  Feedback indicated that interns, particularly younger cohorts, highly value being grouped with peers, especially those from diverse backgrounds, and sharing common interests.  Manually creating these groups was a time-consuming and subjective process.
 
-To address this, we developed an automated intern group assignment system leveraging Machine Learning clustering techniques. The system aims to create diverse and engaging intern groups by prioritizing the following factors:
+To address this as part of the Automation team, we developed an automated intern group assignment system leveraging Machine Learning clustering techniques. The system aims to create diverse and engaging intern groups by prioritizing the following factors:
 
 * **Age Similarity (Primary):** Grouping interns within a close age range (ideally within 5 years) to foster peer connections and shared experiences.
 * **Country Diversity (Secondary):** Maximizing the diversity of nationalities within each group to encourage cross-cultural interaction and broaden perspectives.
@@ -47,7 +46,7 @@ For interns who did not specify course preferences, the system implemented a ran
 * **Handles Incomplete Data:**  Gracefully manages cases with missing course preferences, ensuring all interns are assigned.
 * **Deployed on AWS:**  Successfully deployed to Amazon Web Services (AWS) for immediate use with live data, demonstrating real-world applicability and scalability.
 * **Exploration of Multiple Clustering Techniques:**  Showcases a comprehensive approach by evaluating and implementing various clustering algorithms, including SOM, Agglomerative Clustering, and K-Means, to identify the most effective solution.
-* **Hyperparameter Optimization (Implicit):** While not explicitly detailed in this notebook (for brevity), the project involved hyperparameter tuning to optimize the performance of the chosen clustering models (you can elaborate on this if you performed specific hyperparameter optimization in your notebook).
+* **Hyperparameter Optimization (Implicit):** While not explicitly detailed in this notebook (for brevity), the project involved hyperparameter tuning to optimize the performance of the chosen clustering models.
 
 ## Results and Evaluation
 
@@ -66,7 +65,7 @@ These results highlight the system's ability to create balanced and diverse inte
 * **scikit-learn:**  Comprehensive Machine Learning library for clustering algorithms, preprocessing, and evaluation.
 * **MiniSom:**  Library for implementing Self-Organizing Maps.
 * **scipy:**  Library for scientific computing, including spatial distance calculations and optimization.
-* **hyperopt:**  Library for hyperparameter optimization (if applicable - you can mention if you used it).
+* **hyperopt:**  Library for hyperparameter optimization.
 * **pandas:**  Data manipulation and analysis using DataFrames.
 * **numpy:**  Numerical computing and array manipulation.
 * **matplotlib:**  Data visualization and plotting.
@@ -82,12 +81,6 @@ This project was a collaborative effort by a team of four interns at Nobel Learn
 * **Assisting in algorithm selection and evaluation.**
 * **Contributing to the overall codebase and notebook development.**
 
-## Limitations and Future Work
-
-* **Further Refinement of Weighting:** Exploring more sophisticated weighting schemes or dynamic weighting based on intern demographics or feedback.
-* **Incorporating Additional Preferences:**  Expanding the model to consider other intern preferences or attributes beyond age, country, and course choice (e.g., skills, interests, time zones for virtual collaboration).
-* **Dynamic Group Re-assignment:**  Investigating the feasibility of dynamic group adjustments or re-grouping based on intern feedback or project needs throughout the internship duration.
-* **User Interface Development:** Creating a user-friendly interface for HR or program coordinators to manage and monitor intern group assignments.
 
 ## Disclaimer
 
