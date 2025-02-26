@@ -17,6 +17,7 @@ To address this as part of the Automation team, we developed an automated intern
 
 The system was designed to be deployed with live data, providing a dynamic and efficient solution for intern group assignments.
 
+
 ## Methodology and Algorithms
 
 This project explored several Machine Learning clustering algorithms to achieve optimal intern grouping. While Self-Organizing Maps (SOMs) were initially specified, we also investigated and implemented:
